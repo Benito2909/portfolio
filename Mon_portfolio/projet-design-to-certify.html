@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet – Design-to-Certify composant critique – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Certification d’un composant critique – Approche Design-to-Certify</h1>
+    <p>
+      Projet de certification d’un composant structurel soumis à des
+      sollicitations vibratoires, avec une démarche orientée “design-to-certify”.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="projets.html" class="btn secondary">← Retour à la liste des projets</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte & objectifs</h2>
+      <ul class="project-points">
+        <li>Étudier le comportement vibratoire d’un composant critique.</li>
+        <li>Identifier les modes de défaillance via AMDEC.</li>
+        <li>Proposer des modifications de conception compatibles avec la certification.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Démarche</h2>
+      <ul class="project-points">
+        <li>Modélisation EF sous ANSYS, analyses vibratoires détaillées.</li>
+        <li>Réalisation d’une AMDEC complète (modes, causes, effets, criticité).</li>
+        <li>Priorisation des actions à partir des indices de criticité.</li>
+        <li>Proposition d’ajustements géométriques et de conditions d’utilisation.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Résultats & acquis</h2>
+      <ul class="project-points">
+        <li>Réduction des risques identifiés via des modifications de conception.</li>
+        <li>Alignement de la démarche avec les exigences de certification.</li>
+        <li>Compréhension fine du lien simulation–fiabilité–certification.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

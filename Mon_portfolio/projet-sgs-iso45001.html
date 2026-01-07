@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet – SGS ISO 45001 cabine – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Mise en place d’un SGS conforme ISO 45001 pour un équipement cabine</h1>
+    <p>
+      Projet de conception d’un Système de Gestion de la Sécurité (SGS) appliqué
+      à un équipement cabine, basé sur l’OACI et la norme ISO 45001.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="projets.html" class="btn secondary">← Retour à la liste des projets</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte & objectifs</h2>
+      <ul class="project-points">
+        <li>Formaliser une démarche de sécurité pour un équipement embarqué.</li>
+        <li>Construire un registre des risques et des indicateurs SPI pertinents.</li>
+        <li>Simuler un audit ISO 45001 et proposer un plan d’amélioration.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Démarche</h2>
+      <ul class="project-points">
+        <li>Identification des dangers et construction du registre des risques.</li>
+        <li>Utilisation de QQOQCCP et des 5 Pourquoi pour analyser les incidents.</li>
+        <li>Définition des indicateurs SPI, actions correctives et préventives.</li>
+        <li>Préparation d’un plan d’audit et d’un plan d’amélioration continue.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Résultats & acquis</h2>
+      <ul class="project-points">
+        <li>Vision claire du lien entre sécurité, qualité et exploitation.</li>
+        <li>Capacité à structurer un SGS en contexte aéronautique.</li>
+        <li>Pratique concrète de la gestion des risques et de l’amélioration continue.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

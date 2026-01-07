@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Manager d’équipe – Détails – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html" class="active">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Manager d’équipe</h1>
+    <p>
+      Expérience de management opérationnel chez Burger King, dans un
+      environnement à forts flux, avec responsabilités sur l’organisation,
+      la qualité de service, la gestion des priorités et l’animation d’équipe.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="parcours-pro.html" class="btn secondary">← Retour au parcours professionnel</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte</h2>
+      <p>
+        Restaurant à fort trafic où la réactivité, la gestion des flux et la
+        satisfaction client sont essentielles. Cadre très formateur pour le
+        management, la communication et la prise de décision rapide.
+      </p>
+      <figure style="margin-top:0.8rem;">
+        <img src="images/poste-bk-organigramme-equipe.png" alt="Organigramme simplifié d’une équipe opérationnelle avec un manager et plusieurs équipiers">
+        <figcaption style="font-size:0.8rem;color:#9ba4ba;margin-top:0.3rem;">
+          Organisation d’une équipe opérationnelle encadrée par un manager.
+        </figcaption>
+      </figure>
+    </article>
+
+    <article class="timeline-item">
+      <h2>Responsabilités & réalisations</h2>
+      <ul class="project-points">
+        <li>Organisation du travail et gestion des plannings en fonction des pics d’activité.</li>
+        <li>Encadrement, animation et formation des équipiers.</li>
+        <li>Gestion des priorités et résolution de problèmes en temps réel.</li>
+        <li>Suivi des indicateurs de qualité de service et de performance.</li>
+      </ul>
+      <figure style="margin-top:0.8rem;">
+        <img src="images/poste-bk-diagramme-flux.png" alt="Diagramme de flux illustrant la gestion des commandes et des priorités">
+        <figcaption style="font-size:0.8rem;color:#9ba4ba;margin-top:0.3rem;">
+          Exemple de flux opérationnel à gérer en temps réel (commandes, préparation, service).
+        </figcaption>
+      </figure>
+    </article>
+
+    <article class="timeline-item">
+      <h2>Compétences mobilisées</h2>
+      <ul class="project-points">
+        <li>Leadership, communication et gestion d’équipe.</li>
+        <li>Gestion du stress et des priorités en environnement contraint.</li>
+        <li>Amélioration continue des process (temps d’attente, coordination).</li>
+        <li>Compétences transférables à la gestion de projet et à la coordination technique.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

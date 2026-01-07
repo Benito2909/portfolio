@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Licence Génie Mécanique – ENSI – Détails – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="parcours.html" class="active">Parcours</a></li>
+      <li><a href="parcours-pro.html">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Licence Génie Mécanique – ENSI, Lomé</h1>
+    <p>
+      Formation de base en génie mécanique, fortement ancrée dans la pratique
+      atelier, la mécanique générale, la RDM, les matériaux, la thermique et
+      la première exposition à la CAO et au prototypage.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="parcours.html" class="btn secondary">← Retour au parcours académique</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Objectifs de la formation</h2>
+      <p>
+        Poser les fondations scientifiques et pratiques du métier d’ingénieur
+        mécanicien, en combinant <strong>mécanique, matériaux, thermique,
+        fabrication et prototypage</strong>, au plus près de la réalité atelier.
+      </p>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Contenus principaux</h2>
+      <ul class="project-points">
+        <li>
+          <strong>Mécanique générale & RDM :</strong> statique, cinématique,
+          dynamique des solides ; RDM (traction, flexion, torsion) et
+          dimensionnement simple de poutres, axes, assemblages.
+        </li>
+        <li>
+          <strong>Matériaux & fabrication :</strong> propriétés des aciers,
+          alliages, premiers composites ; procédés d’usinage, traitements
+          thermiques, introduction à la fatigue.
+        </li>
+        <li>
+          <strong>Thermique & fluides :</strong> bases de thermodynamique,
+          transferts thermiques, premières notions de mécanique des fluides
+          appliquées aux systèmes mécaniques.
+        </li>
+        <li>
+          <strong>Conception & CAO :</strong> initiation à la modélisation
+          sous CATIA / SolidWorks, réalisation de pièces simples et petits
+          assemblages, mise en plan.
+        </li>
+        <li>
+          <strong>Pratique atelier & prototypage :</strong> usinage
+          conventionnel et CNC, métrologie, contrôle dimensionnel, projets
+          en atelier.
+        </li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Projets & travaux marquants</h2>
+      <ul class="project-points">
+        <li>
+          <strong>Conception et réalisation de pièces en atelier :</strong>
+          de la lecture de plan à l’usinage, choix des paramètres de coupe,
+          contrôle dimensionnel.
+        </li>
+        <li>
+          <strong>Projets au Fablab ENSI :</strong> conception 3D de petites
+          structures ou mécanismes, prototypage par impression 3D ou CNC,
+          ajustements géométriques selon les résultats réels.
+        </li>
+        <li>
+          <strong>Travaux dirigés d’analyse mécanique :</strong>
+          résolution de cas concrets (flexion, torsion, assemblages simples),
+          comparaison théorie / pratique.
+        </li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Compétences développées</h2>
+      <ul class="project-points">
+        <li>Maîtrise des bases en mécanique et RDM.</li>
+        <li>Compréhension des matériaux et des procédés de fabrication.</li>
+        <li>Premiers réflexes de conception mécanique et de CAO.</li>
+        <li>Habitude de travailler au contact de l’atelier et du concret.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

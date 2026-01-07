@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingénieur maintenance industrielle – Détails – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html" class="active">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Ingénieur en maintenance industrielle</h1>
+    <p>
+      Stage réalisé chez ContourGlobal, en environnement de production
+      énergétique, avec un focus sur la disponibilité des équipements, la
+      maintenance préventive/corrective et la fiabilité.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="parcours-pro.html" class="btn secondary">← Retour au parcours professionnel</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte</h2>
+      <p>
+        Site de production avec des enjeux forts de continuité de service.
+        La performance et la fiabilité des installations ont un impact
+        direct sur la productivité et la sécurité.
+      </p>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Responsabilités & réalisations</h2>
+      <ul class="project-points">
+        <li>Participation à la maintenance préventive, corrective et conditionnelle.</li>
+        <li>Contribution à l’amélioration du MTBF et à la réduction des arrêts non planifiés.</li>
+        <li>Analyse des défaillances récurrentes et proposition d’actions correctives.</li>
+        <li>Mise à jour de plans de maintenance et procédures associées.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Compétences mobilisées</h2>
+      <ul class="project-points">
+        <li>Approche fiabilité & disponibilité des installations.</li>
+        <li>Analyse de risques et priorisation des interventions.</li>
+        <li>Coordination avec les équipes opérationnelles.</li>
+        <li>Compréhension des liens entre maintenance, sécurité et performance.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

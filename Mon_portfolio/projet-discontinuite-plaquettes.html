@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet – Discontinuités & plaquettes de freins – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Effet des discontinuités sur les structures planes & plaquettes de freins</h1>
+    <p>
+      Série de projets personnels sur l’impact des discontinuités géométriques
+      dans des structures planes et leur exploitation dans la conception de
+      plaquettes de freins.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="projets.html" class="btn secondary">← Retour à la liste des projets</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte & objectifs</h2>
+      <ul class="project-points">
+        <li>Étudier l’effet de discontinuités (entailles, évidements, perçages) sur les contraintes.</li>
+        <li>Observer leur influence sur les modes vibratoires et l’initiation de fissures.</li>
+        <li>Explorer des géométries de plaquettes de freins inspirées de la littérature.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Méthodologie</h2>
+      <ul class="project-points">
+        <li>Modélisation sous <strong>ANSYS</strong> de plaques planes avec diverses géométries de discontinuités.</li>
+        <li>Analyses statiques et modales, cartographie des contraintes et des modes propres.</li>
+        <li>Transposition à des géométries de plaquettes de freins (formes, trous, encoches).</li>
+        <li>Lecture et synthèse d’articles scientifiques sur bruit de freinage, usure et fissuration.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Résultats & acquis</h2>
+      <ul class="project-points">
+        <li>Compréhension affinée de la redistribution des contraintes par les discontinuités.</li>
+        <li>Identification de configurations améliorant le comportement vibratoire.</li>
+        <li>Capacité à mener une démarche de recherche personnelle (simulation + bibliographie).</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

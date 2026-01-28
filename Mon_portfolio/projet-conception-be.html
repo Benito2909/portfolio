@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet – Conception mécanique en BE – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Conception mécanique & industrialisation en bureau d’études</h1>
+    <p>
+      Projets réalisés chez CMBI Mécanique, mêlant conception 3D, tolérancement,
+      RDM simple et optimisation des gammes d’usinage.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="projets.html" class="btn secondary">← Retour à la liste des projets</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte & enjeux</h2>
+      <ul class="project-points">
+        <li>Conception de pièces et assemblages mécaniques pour l’industrie.</li>
+        <li>Respect des contraintes de fabricabilité et de coût.</li>
+        <li>Dialogue permanent avec méthodes et atelier.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Travaux réalisés</h2>
+      <ul class="project-points">
+        <li>Conception 3D sous CATIA V5 / SolidWorks.</li>
+        <li>Mise en plan avec tolérancement géométrique (GD&T).</li>
+        <li>Vérifications RDM de base (flexion, torsion, appuis).</li>
+        <li>Participation à l’optimisation des gammes d’usinage.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Résultats & acquis</h2>
+      <ul class="project-points">
+        <li>Diminution des retours prototypes grâce à un meilleur tolérancement.</li>
+        <li>Meilleure compréhension du lien conception–fabrication–qualité.</li>
+        <li>Approche “design for manufacturing” renforcée.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

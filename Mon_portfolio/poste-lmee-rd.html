@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingénieur R&D dynamique des structures – Détails – Michel KODZA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">AERO</span>
+      <span class="logo-text">Michel KODZA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="parcours-pro.html" class="active">Parcours pro</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <header class="page-header">
+    <h1>Ingénieur R&D en dynamique des structures</h1>
+    <p>
+      Stage de recherche appliquée réalisé au LMEE & Rincent Laboratoires,
+      centré sur la dynamique des structures, la fiabilisation de modèles
+      vibratoires et la prédiction de durée de vie d’assemblages mécaniques
+      critiques.
+    </p>
+    <p style="margin-top:0.7rem;">
+      <a href="parcours-pro.html" class="btn secondary">← Retour au parcours professionnel</a>
+    </p>
+  </header>
+
+  <section class="timeline">
+    <article class="timeline-item">
+      <h2>Contexte</h2>
+      <p>
+        Travail au sein d’un laboratoire de mécanique en partenariat avec
+        l’industrie, sur des tirants d’ancrage et structures soumises à des
+        sollicitations vibratoires sévères. Objectif : mieux relier
+        résultats numériques et observations expérimentales pour sécuriser
+        le dimensionnement.
+      </p>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Responsabilités & réalisations</h2>
+      <ul class="project-points">
+        <li>Modélisation EF sous ANSYS (analyses modales, harmoniques, fatigue).</li>
+        <li>Calage des modèles à partir de données expérimentales (essais vibratoires).</li>
+        <li>Analyse des formes modales, contraintes et facteurs de concentration.</li>
+        <li>Rédaction de synthèses et recommandations pour le dimensionnement industriel.</li>
+        <li>Participation à la rédaction d’un article scientifique.</li>
+      </ul>
+      
+    </article>
+
+    <article class="timeline-item">
+      <h2>Compétences mobilisées</h2>
+      <ul class="project-points">
+        <li>Simulation EF avancée (vibrations, fatigue, corrélation essais/simulation).</li>
+        <li>Interprétation physique des résultats et esprit critique.</li>
+        <li>Travail en interface laboratoire / industrie.</li>
+        <li>Communication écrite (article) et orale (présentations techniques).</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Michel KODZA – Ingénieur Aéronautique</p>
+</footer>
+
+<script>
+  const yearSpan = document.querySelector('#year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
